@@ -1,0 +1,27 @@
+public class linearSearch {
+    public static void main(Integer key){
+    	System.debug('Linear Search');
+    	integer flag = 0;
+    	List<integer> arr = new List<integer> ();
+    	arr.add(3);
+    	arr.add(4);
+    	arr.add(5);
+    	arr.add(6);
+    	System.debug('List: '+arr);
+    	for(integer i = 0; i < arr.size(); i++)
+    	{
+        	if (key == arr[i])
+        	{
+            	flag = 1;
+				break;        	}
+    	}
+    	if (flag == 1)
+    	{
+        		System.debug('Element Found');
+    	}
+    	else
+    	{
+        		System.debug('Element Not Found');
+    	}
+	}
+}
