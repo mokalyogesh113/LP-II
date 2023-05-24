@@ -27,7 +27,7 @@ int main()
             pos = mid;
             break;
         }
-        else if(arr[mid]<target)
+        else if(arr[mid]>target)
             end = mid -1;   
         else
             start = mid + 1;
